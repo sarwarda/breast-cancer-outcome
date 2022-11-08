@@ -10,16 +10,16 @@ Tableau Public Links:
 Project Contents
 
 - Jupyter Notebooks
-- ETL and EDA notebook in .ipynb format
-- Classification notebook in .ipynb format
-- Original, cleaned, and pre-proccessed datasets (categorical variable encodings)
-- graphviz decision tree visualization (.png)
-- graphviz dot file for decision tree
+  - ETL and EDA notebook in .ipynb format
+  - Classification notebook in .ipynb format
+  - Original, cleaned, and pre-proccessed datasets (categorical variable encodings)
+  - graphviz decision tree visualization (.png)
+  - graphviz dot file for decision tree
 
 - Tableau Data Files
-- Exploration of Breast Cancer Mortality files (.twb and .twbx)
-- SEER Breast Cancer Decision Tree tableau files (.twb and .twbx)
-- Decision Tree tableau excel file, which includes data used to manually build the tree in tableau
+  - Exploration of Breast Cancer Mortality files (.twb and .twbx)
+  - SEER Breast Cancer Decision Tree tableau files (.twb and .twbx)
+  - Decision Tree tableau excel file, which includes data used to manually build the tree in tableau
 
 All necessary imports for python environment are listed at the top of each notebook. To reiterate, the necessary python version and libraries used in the notebook includes:
 
