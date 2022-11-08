@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="SurvivalMonths <= 47.5\nentropy = 0.61\nsamples = 2816\nvalue = [423, 2393]\nclass = 1", fillcolor="#5caeea"] ;
+1 [label="EstrogenStatus <= 1.5\nentropy = 0.849\nsamples = 327\nvalue = [237, 90]\nclass = 0", fillcolor="#efb184"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="RegionalNodePositive <= 6.5\nentropy = 0.926\nsamples = 258\nvalue = [170, 88]\nclass = 0", fillcolor="#f2c29f"] ;
+1 -> 2 ;
+3 [label="entropy = 0.987\nsamples = 173\nvalue = [98, 75]\nclass = 0", fillcolor="#f9e1d1"] ;
+2 -> 3 ;
+4 [label="entropy = 0.617\nsamples = 85\nvalue = [72, 13]\nclass = 0", fillcolor="#ea985d"] ;
+2 -> 4 ;
+5 [label="SurvivalMonths <= 26.5\nentropy = 0.189\nsamples = 69\nvalue = [67, 2]\nclass = 0", fillcolor="#e6853f"] ;
+1 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 39\nvalue = [39, 0]\nclass = 0", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="entropy = 0.353\nsamples = 30\nvalue = [28, 2]\nclass = 0", fillcolor="#e78a47"] ;
+5 -> 7 ;
+8 [label="RegionalNodePositive <= 4.5\nentropy = 0.383\nsamples = 2489\nvalue = [186, 2303]\nclass = 1", fillcolor="#49a5e7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="SurvivalMonths <= 88.5\nentropy = 0.295\nsamples = 1887\nvalue = [98, 1789]\nclass = 1", fillcolor="#44a2e6"] ;
+8 -> 9 ;
+10 [label="entropy = 0.361\nsamples = 1310\nvalue = [90, 1220]\nclass = 1", fillcolor="#48a4e7"] ;
+9 -> 10 ;
+11 [label="entropy = 0.105\nsamples = 577\nvalue = [8, 569]\nclass = 1", fillcolor="#3c9ee5"] ;
+9 -> 11 ;
+12 [label="SurvivalMonths <= 63.5\nentropy = 0.6\nsamples = 602\nvalue = [88, 514]\nclass = 1", fillcolor="#5baee9"] ;
+8 -> 12 ;
+13 [label="entropy = 0.884\nsamples = 152\nvalue = [46, 106]\nclass = 1", fillcolor="#8fc8f0"] ;
+12 -> 13 ;
+14 [label="entropy = 0.447\nsamples = 450\nvalue = [42, 408]\nclass = 1", fillcolor="#4da7e8"] ;
+12 -> 14 ;
+}
