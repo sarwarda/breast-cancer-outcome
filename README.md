@@ -24,7 +24,7 @@ Project Contents
 All necessary imports for python environment are listed at the top of each notebook. To reiterate, the necessary python version and libraries used in the notebook includes:
 
 ```
-Python 3.9.10
+Python 3.9+
 
 numpy
 random 
